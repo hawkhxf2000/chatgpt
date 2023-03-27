@@ -1,0 +1,58 @@
+.markdown-output {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.markdown-output h1,
+.markdown-output h2,
+.markdown-output h3,
+.markdown-output h4,
+.markdown-output h5,
+.markdown-output h6 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.markdown-output p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.markdown-output ul,
+.markdown-output ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    color: #333;
+}
+
+.markdown-output ul li,
+.markdown-output ol li {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.markdown-output ul li:before {
+    content: "•";
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.markdown-output ol li:before {
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.markdown-output strong {
+    font-weight: bold;
+}
+
+.markdown-output em {
+    font-style: italic;
+}

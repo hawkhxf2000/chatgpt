@@ -1,5 +1,5 @@
 import {createMocks} from 'node-mocks-http'
-import generator35 from "@/pages/api/generator-3.5";
+import generator35 from "@/pages/api/generator-35";
 import '@testing-library/jest-dom'
 
 describe('/api/generator-3.5', () => {

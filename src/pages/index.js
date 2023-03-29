@@ -24,7 +24,6 @@ export default function Home() {
       if (response.status !== 200) {
         throw data.error || new Error(`Request failed with status ${response.status}`);
       }
-      console.log(data.result.content);
       setResult(data.result.content);
       setInput("");
     } catch(error) {
@@ -53,7 +52,12 @@ export default function Home() {
             <input type="submit" value="Generate names" />
           </form>
           {/*<div className={styles.result}>{result}</div>*/}
-          <MarkdownReader content={result}/>
+          {result === undefined ?
+            <p>...</p>
+            :
+              <MarkdownReader content={result}/>
+          }
+
         </main>
       </div>
   );
